@@ -27,9 +27,79 @@
          <br> <br>
          <label>Phone: </label>
          <input type="tel" name="phone" placeholder="92093284" required/>
+         <br><br>
+         <label for="Gender">Gender:</label>
+         <input type="radio" name="gender" value="male" checked/>Male
+         <input type="radio" name="gender" value="female"/>Female
+         <br><br>
+         <label for="hobby">Hobby</label>
+         <input type="checkbox" name="hobby" value="music" checked/>Music
+         <input type="checkbox" name="hobby" value="dance"/>Dance
+         <br><br>
+         <label>Recommend any Suggestions :</label><br><br>
+         <textarea name="text" id=""mytext cols="30" rows="5"
+         placeholder="Type your message here.." value="hiiiiii"></textarea>
         </fieldset>
+        <fieldset align="center">
+            <legend><h2>Additional Info:</h2></legend>
+            <label>DOB: </label>
+            <input type="date" name="dob"
+            min="2000-01-01" max="2020-12-12">
+            <br><br>
+            <label>Enter the age:</label>
+            <input type="number" name="age" min="18" max="35" value="20" step="1">
+            <br><br>
+            <label for="priceRange1">price:</label>
+            <input type="range" name="pricerange" min="100" max="1000" step="50" value="200">
+            <br><br>
+            <label for="color">Select color:</label>
+            <input type="color" name="clr" value="#000000">
+            <br><br>
+            <label>Select City: </label>
+            <select name="city" id="city">
+            <option value="">Select Any option</option>
+            <option value="ahmedabad">Ahmedabad</option>
+            <option value="gandhinagar">Gandhinagar</option>
+            <option value="Surat">Surat</option>
+            </select>
+            <br><br>
+            <label>Select Branch: </label>
+            <select name="branch" id="branch">
+                <option value="select" selected hidden>select</option>
+                   <optgroup label="computer">
+                     <option value="cse">cse</option>
+                      <option value="it">it</option>
+                        <option value="itc">itc</option>
+                   </optgroup>
+                   <optgroup label="other">
+                     <option value="ec">ec</option>
+                      <option value="civil">civil</option>
+                        <option value="mechanical">mechanical</option>
+                   </optgroup>
+            </select>
+            <input list="browsers" name=" browser">
+            <datalist id="browsers">
+                <option value="chrome"></option>
+                <option value="Firefoc"></option>
+                <option value="edge"></option>
+                <option value="Safari"></option>
+            </datalist>
+        </fieldset>
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3672.958801264419!2d72.52402837407361!3d22.988542417599568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sjaved%20park1!5e0!3m2!1sen!2sin!4v1758863184389!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">hiii</iframe>
     <fieldset align="center">
+        <br><br>
+        <input type="reset" name="reset" value="Reset">
         <input type="submit" value="Submit">
+        <button type="Submit">Submit</button>
+        <button>Button</button>
+    </fieldset>
+    <fieldset align="center">
+        <legend><h2>Hidden Readonly disabled</h2></legend>
+        <!-- goes to server hidden and read only -->
+        <input type="hidden" name="=uid" value="1234"/>
+        <input type="text" value="cse" readonly/>
+        <!--  does not goes to the server -->
+        <input type="text" name="prmo" value="LJU500" disabled/>
     </fieldset>
 </form>
     </body>
