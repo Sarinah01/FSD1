@@ -1,0 +1,591 @@
+<html>
+  <body>
+    <!-- nos rowss- 4 cols-7 -->
+     <style>
+  
+    article {
+      flex: 3;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    aside {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #f4f4f4;
+    }
+  </style>
+
+    <table border="3" cellpadding="30px" cellspacing="3px" >
+     <tr>
+      <td rowspan="3">a</td>
+      <td>b</td>
+      <td colspan="2">c</td>
+      <td> d</td>
+      <td colspan="2" rowspan="2">e</td>
+     </tr>
+     <tr>
+      <td>f</td>  
+      <td>g</td>
+      <td rowspan="3">h</td>
+      <td>i</td>
+    </tr>
+    <tr>
+      <td rowspan="2">j</td>
+      <td>k</td>
+      <td>l</td>
+      <td>m</td>
+      <td>n</td>
+
+    </tr>
+        <tr>
+      <td>o</td>
+      <td>p</td>
+      <td colspan="3">q</td>
+    </tr>
+    </table>
+
+    <br><br>
+    <h2>Creating the table of height and weight:</h2>
+
+    r-4, c-4
+    <table border="3" cellspacoing="3" cellpadding="20">
+      <thead>
+        <tr>
+          <th rowspan="2"></th>
+        <th colspan="2">Average</th>
+        <th rowspan="2">other categories</th>
+        </tr>
+        <tr>
+        <th>height</td>
+        <th>weight</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>males</td>
+          <td>1.9</td>
+          <td>0.003</td>
+          <td>yyy</td>
+        </tr>
+        <tr>
+          <td>females</td>
+          <td>1.7</td>
+          <td>0.003</td>
+          <td>xxx</td>
+        </tr>
+
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <table border="3" cellspacing="3" cellpadding="20">
+      <caption>
+        Table of the purchased Item
+      </caption>
+      <thead>
+        <tr>
+          <th colspan="4">Purchased Requirement(June, 2006)</th> 
+        </tr>
+        <tr>
+          <th rowspan="2">Item Name</th>
+          <th rowspan="2">Item Price</th>
+          <th>Item Description</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <th>Shipping Handling Installation etc</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td rowspan="2">1.</td>
+          <td rowspan="2"><img src="girl1.png/" height="40" width="40" rowspan="2"></td>
+          <td>IBM cloud Commputer</td>
+          <td>$40000</td>
+        </tr>
+        <tr>
+         
+          <td>Shipping Handling Installation</td>
+          <td>$20</td>
+        </tr>
+        <tr>
+          <td rowspan="2">1.</td>
+          <td rowspan="2"><img src="girl1.png/" height="40" width="40"></td>
+          <td>1GB RAM mobile </td>
+          <td>$40000</td>
+        </tr>
+        <tr>
+         
+          <td>Shipping Handling Installation</td>
+          <td>$14</td>
+        </tr>
+        <tr>
+          <th colspan="4">
+            Purchased Equipment(June, 2006)
+          </th>
+        </tr>
+      </tbody>
+      </table>
+      <br><br><br>
+      <h2>
+        Write an HTML script to play a YouTube video looping forever & auto-playing while page load
+     
+      </h2> 
+    <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/wkxZFLkVBvI??autoplay=1&mute=1&loop=1&si=xSXbWn19AP_naYkz"  
+    frameborder="0" 
+    allow="autoplay" 
+    conto
+    allowfullscreen>
+  </iframe>
+
+  <br><br>
+  <h2>For the Downloaded video:</h2>
+  <video controls loop autoplay muted height="70" width="150">
+    <source src="1.mp4" type="video/mp4">
+  </video>
+  <h2>Audio</h2>
+  <audio controls loop autoplay muted>
+    <source src="2.mp3" type="audio/mpeg">
+  </audio>
+
+  <article>
+  <h2>Main Article</h2>
+    <p>
+      This is the main content of the page. You can write articles, blog posts, or any primary information here.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet lacus ut libero sollicitudin cursus.
+    </p>
+  </article>
+
+  <aside>
+    <h3>Related Information</h3>
+    <p>
+      This is aside content. It can include ads, links, side notes, or related information to the main article.
+    </p>
+  </aside>
+
+  <br><br>
+  <h2>All Semantic tags</h2>
+  <!-- Header -->
+  <header>
+    <h1>Website Header</h1>
+    <p>Welcome to our website!</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Article with sections -->
+    <article>
+      <h2>Main Article Title</h2>
+
+      <section>
+        <h3>Section 1</h3>
+        <p>This is the first section of the article. You can include paragraphs, images, lists, or other content here.</p>
+      </section>
+
+      <section>
+        <h3>Section 2</h3>
+        <p>This is the second section of the article. Continue to organize your content into meaningful sections.</p>
+      </section>
+
+    </article>
+
+    <!-- Sidebar / Aside -->
+    <aside>
+      <h3>Related Information</h3>
+
+      <section>
+        <h4>Tip 1</h4>
+        <p>This is a helpful tip or related content.</p>
+      </section>
+
+      <section>
+        <h4>Tip 2</h4>
+        <p>This is another piece of related information.</p>
+      </section>
+
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+  <br><br>
+  <pre>
+    | Feature             | `<div>`                                                    | `<span>`                                                             |
+| ------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Type**            | Block-level element                                        | Inline element                                                       |
+| **Usage**           | Used to group large sections of content or other elements  | Used to style or group small portions of text or inline elements     |
+| **Layout Behavior** | Starts on a new line and takes full width available        | Does not start on a new line and only takes the width of its content |
+| **Common Use**      | Creating page layout sections like header, footer, sidebar | Styling parts of text, like changing color, font, or highlighting    |
+| **Nesting**         | Can contain block and inline elements                      | Can contain only inline elements                                     |
+| **Examples**        | `<div class="container">...</div>`                         | `<span style="color:red">Important</span>`                           |
+
+| Tag             | Purpose                | Usage                                                                      | Example                                                |
+| --------------- | ---------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------ |
+| **`<th>`**      | Table header cell      | Defines a **header cell** inside a table row `<tr>`                        | `<tr><th>Name</th><th>Age</th></tr>`                   |
+| **`<thead>`**   | Table header section   | Groups **header rows** of a table. Helps with styling and accessibility    | `<thead><tr><th>Name</th><th>Age</th></tr></thead>`    |
+| **`<caption>`** | Table title or caption | Provides a **title for the table**; appears **above** the table by default | `<table><caption>Student Details</caption>...</table>` |
+
+The `<meta>` tag is very important for **SEO (Search Engine Optimization)** because it provides **information about a web page** to search engines and browsers.
+
+Here’s how it helps:
+
+---
+
+### 1. **Meta Description**
+
+```html
+<meta name="description" content="Learn HTML, CSS, and JavaScript with easy tutorials and examples.">
+```
+
+* Provides a **summary of the page**.
+* Search engines often show this text in **search results**.
+* A **well-written description** can improve **click-through rate (CTR)**.
+
+---
+
+### 2. **Meta Keywords** (less important nowadays)
+
+```html
+<meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
+```
+
+* Specifies relevant keywords for your page.
+* Helps search engines understand the **topic**.
+* Note: Most modern search engines **ignore keywords**, but it can still be used in some cases.
+
+---
+
+### 3. **Meta Robots**
+
+```html
+<meta name="robots" content="index, follow">
+```
+
+* Tells search engines whether to **index your page** and **follow links**.
+* Helps control **visibility in search results**.
+
+---
+
+### 4. **Viewport for Mobile SEO**
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+* Ensures your website is **mobile-friendly**, which is a ranking factor for Google.
+
+
+  
+
+</pre>
+
+  <br><br>
+  log <sub>10</sub>
+  (H<sub>2</sub>SO<sub>4</sub>)<sup>2</sup>
+
+  <br><br>
+  <h1>
+    <span style="color:red;">R</span>
+    <span style="color:orange;">A</span>
+    <span style="color:yellow;">I</span>
+    <span style="color:green;">N</span>
+    <span style="color:blue;">B</span>
+    <span style="color:indigo;">O</span>
+    <span style="color:violet;">W</span>
+  </h1>
+
+  <br>
+  <!-- rules -- all, none , rows, cols -->
+  <table rules="all" border="3"cellspacing="4" cellpadding="20">
+    <tr>
+      <th colspan="3">
+        Header1
+      </th>
+      <th colspan="3">
+        Header2
+      </th>
+    </tr>
+    <tr>
+      <th rowspan="3">Food Items</th>
+      <td>pizza</td>
+      <td>burger</td>
+      <td colspan="2">fries</td>
+    </tr>
+    <tr>
+      <td>Maggie</td>
+      <td>Fruits</td>
+      <td>Rolls</td>
+      <td rowspan="2">Sticks</td>
+    </tr>
+    <tr>
+      <td colspan="2">Grill</td>
+       <td colspan="2">Non-Grill</td>
+    </tr>
+    <tr>
+      <td>COld Drinks</td>
+      <td colspan="4">Coca Cola</td>
+
+    </tr>
+    <tr>
+      <td colspan="5">Confirm Order</td>
+    </tr>
+  </table>
+  <br><br><br>
+  <h2>
+    Write a form to collect details of a user such as name, password, 
+    address, radio button to choose subject of book he wants to buy, 
+    Dropdown to choose favorite author by providing categories like novel,
+     story book, comics and comments for the last book he read. 
+     Give title to form with outline, submit and reset buttons.
+  </h2>
+  <form action="#" title="Registration Form" enctype="multipart/form-data">
+      <fieldset>
+         <legend>
+          Registration Form
+         </legend>
+
+         <label for="uname">Username:</label>
+         <input type="text" name="uname" id="uname" placeholder="Enter Name" required><br>
+
+         <label for="pass">Password:</label>
+         <input type="password" name="pass" id="pass" placeholder="Enter password" required><br>
+
+         <label for="email">Enter Your email: </label>
+         <input type="email" name="email" placeholder="name@gmail.com">
+
+         <label for="phone">Phone :</label>
+         <input type="tel" name="phone" id="phone" placeholder="623547219">
+
+         <label for="Hobbies:"></label>
+         <input type="checkbox" name="hobby" checked>Music
+         <input type="checkbox" name="hobby" checked>sports
+         <input type="checkbox" name="hobby" >Dance
+         <input type="checkbox" name="hobby" >Flyy
+         <label for="Add Adress:"></label>
+         <textarea name="" id="add" rows="8" cols="20"></textarea><br>
+
+         <label for="Subjects"> Choose Subjects:</label>
+         <input type="radio" id="subjects" name="subject" checked required>Fiction
+         <input type="radio" id="subjects" name="subject">SelfHelp
+         <input type="radio" id="subjects" name="subject" >Science
+         <input type="radio" id="subjects" name="subject">Animated
+         <br>
+
+         <label for="Books">Choose the book Type:</label>
+         <select name="booktypes" id="Books">
+          <option value="" selected disabled hidden>--SELECT--</option>
+          <optgroup label="Novel">
+           <option value="pride">Pride & Prejudice</option>
+           <option value="gatsby">The Great Gatsby</option>
+          </optgroup>
+          <optgroup label="Comics">
+           <option value="pride" disabled>Pride & Prejudice</option>
+           <option value="gatsby">The Great Gatsby</option>
+          </optgroup>
+         </select><br>
+
+         <label for="others">Search for other books: </label>
+         <input list="search" id=" search" placeholder="Search book of Your type">
+         <datalist id="search" title="Add Ur book name">
+           <option value="Novel: Pride & Prejudice">
+          <option value="Novel: The Great Gatsby">
+          <option value="Comics: Spiderman">
+          <option value="Comics: Batman">
+         </datalist><br>
+          Add Your Comment:
+         <textarea name="comment" id="comment" rows="3" cols="5">
+         
+         </textarea>
+         <br>
+
+         <fieldset>
+          <legend>Additional info:</legend>
+          <label for="dob">DOB:</label>
+          <input type="date" min="2025-10-01" max="2025-10-05">
+          <br>
+          <label for="age">Age:</label>
+          <input type="number" min="1" max="100" step="1" value="18">
+          <br>
+          <label for="color">Color:</label>
+          <input type="color" value="#000000"><br><br>
+            <label for="range">Satisfaction:</label>
+          <input type="range" value="12" min="0" max="200" step="3" value="25"><br><br>
+          <input type="hidden" name="userid" value="12345">
+        
+        <!-- Readonly field --> <label>Username (readonly):</label> <input type="text" name="username" value="LJU" readonly> <br><br>
+         <!-- Disabled field --> <label>Promo Code (disabled):</label> <input type="text" name="promo" value="SUMMER50" disabled> <br><br> 
+         <!-- Hidden field --> <input type="hidden" name="userId" value="12345">
+          <label for="sdsh">Upload CV:</label>
+          <input type="file" accept=".pdf,.png,.doc" multiple><br><br>
+          
+        </fieldset>
+       
+         <input type="submit" Value="Submit">
+         <button type="reset">Reset</button>
+      </fieldset>
+
+
+  </form><br><br>
+  <h2>Svg</h2>
+ <!-- Combined Image (example image with Virat Kohli holding Pepsi) -->
+<img src="https://unsplash.com/photos/man-sitting-on-rock-surrounded-by-water--Q_t4SCN8c4" 
+     alt="Virat Kohli with Pepsi" 
+     usemap="#adMap" 
+     width="600" height="350">
+
+<!-- Define clickable areas -->
+<map name="adMap">
+
+  <!-- Left side (Brand Ambassador area) -->
+  <area shape="rect" coords="0,0,300,350" 
+        href="https://unsplash.com/photos/man-sitting-on-rock-surrounded-by-water--Q_t4SCN8c4" 
+        alt="Virat Kohli" 
+        target="_blank">
+
+  <!-- Right side (Product area) -->
+  <area shape="rect" coords="300,0,600,350" 
+        href="https://www.pepsi.com/" 
+        alt="Pepsi Website" 
+        target="_blank">
+
+</map>
+<svg height="250" width="500"> <rect x='20' y='20' width="200" height="40" fill="orange" stroke="#000" stroke-width="3"/>
+<rect x='20' y='60' width="200" height="40" fill="#fff" stroke="#000" stroke-width="3"/> <rect x='20' y='100' width="200" height="40" fill="green" stroke="#000" stroke-width="3"/> <circle cx="120" cy="80" r="19" stroke="#000" stroke-width="2" fill="blue"/>
+</svg>
+
+<h2>Interactive Traffic Light Signal</h2>
+
+<!-- Combined Traffic Light Image -->
+<img src="traffic.jpg" alt="Traffic Light" usemap="#trafficmap" width="250" height="600">
+
+<!-- Define clickable regions -->
+<map name="trafficmap">
+
+  <!-- Red Light -->
+  <area shape="circle" coords="125,100,60" 
+        href="red.jpg" 
+        alt="Red Light" 
+        target="_blank">
+
+  <!-- Yellow Light -->
+  <area shape="circle" coords="125,300,60" 
+        href="yellow.jpg" 
+        alt="Yellow Light" 
+        target="_blank">
+
+  <!-- Green Light -->
+  <area shape="circle" coords="125,500,60" 
+        href="green.jpg" 
+        alt="Green Light" 
+        target="_blank">
+</map>
+
+<p>
+  <!-- Combined Image (info.jpg) -->
+<img src="info.jpg" alt="HTML CSS JS Combined" usemap="#webmap" width="600" height="300">
+
+<!-- Define Clickable Areas -->
+<map name="webmap">
+
+  <!-- HTML Section -->
+  <area shape="rect" coords="0,0,200,300" 
+        href="HTML.jpg" 
+        alt="HTML Info" 
+        target="_blank">
+
+  <!-- CSS Section -->
+  <area shape="rect" coords="200,0,400,300" 
+        href="CSS.jpg" 
+        alt="CSS Info" 
+        target="_blank">
+
+  <!-- JavaScript Section -->
+  <area shape="rect" coords="400,0,600,300" 
+        href="JS.jpg" 
+        alt="JavaScript Info" 
+        target="_blank">
+
+</map>
+
+<p>
+  <svg height="500" width="500">
+    <line x1="100" y1="20" x2="200" y2="350" stroke="blue" stroke-width="3"></line>
+  <line x1="200" y1="20" x2="50" y2="350" stroke="yellow" stroke-width="3"></line>
+  <rect x="150" y="150" height="140" rx="275" ry="375" width="200" stroke="red" stroke-width="2"></rect>
+  <ellipse cx="130" cy="150" rx="130" ry="50" fill="pink" stroke="black" stroke-width="3"></ellipse>
+  <text fill="#000" font-size="20" x="100" y="145" font-family="arial">HIii</text>
+  <polygon points="80,100,0,250,150" fill="brown"></polygon>
+  <polygon fill="brown" 
+    points="
+    0,200,70,100,150,200
+    150,200,200,100,300,200
+    300,200,350,100,450,200
+    "></polygon>
+  <polygon fill="pink" fill-rule="evenodd" stroke="purple" stroke-width="3"
+  points="
+   40,80,150,30,150,80
+   70,40,210,40,
+   "
+  ></polygon>
+  <rect height="40" width="100" x="150" y="250" fill="orange" stroke="black" stroke-width="3"></rect>
+ <rect height="40" width="100" x="150" y="290" fill="white" stroke="black" stroke-width="3"></rect>
+  <rect height="40" width="100" x="150" y="330" fill="green" stroke="black" stroke-width="3"></rect>
+  <circle fill="blue" cx="200" cy="310" r="20"></circle>
+  
+</svg>
+
+
+<svg width="200" height="200">
+<circle cx="120" cy="100" r="80" fill="grey"/>
+<circle cx="120" cy="60" r="80" fill="white"/>
+</svg>
+
+<svg width="600" height="500">
+<circle cx="300" cy="500" r="300" fill="purple"/>
+<circle cx="300" cy="500" r="270" fill="indigo"/>
+<circle cx="300" cy="500" r="240" fill="lightblue"/>
+<circle cx="300" cy="500" r="210" fill="green"/>
+<circle cx="300" cy="500" r="190" fill="yellow"/>
+<circle cx="300" cy="500" r="160" fill="orange"/>
+<circle cx="300" cy="500" r="130" fill="red"/>
+</svg>
+
+<svg height="400" width="500">
+<circle cx="100" cy="110" r="90" fill="pink"></circle>
+<polygon points="100,10,40,198,190,78 10,78,160,198"
+stroke="purple" stroke-width="3" fill="white" fill-rule="evenodd" />
+<text fill="#000" font-size="20" x="80" y="115" font-family="verdana">LJU</text>
+</svg>
+
+<!--Map are:-->
+<br>
+<br>
+<img src="im1.png" height="500" width="500" alt="sdjas" usemap="#mymap">
+<map name="mymap">
+  <area target="_blank" shape="rect" href="#" coords="0,0,450,450"/>
+  <area target="_blank" shape="circle" href="lec3.py" coords="250,280,100" shape="circle">
+  <area target="_blank" shape="polygon" href="1.mp3" coords="370,100,250,200,250,450,370,100">
+</map>
+</body>
+</html>
